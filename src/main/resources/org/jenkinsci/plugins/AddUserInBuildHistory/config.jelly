@@ -1,0 +1,15 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+  -->
+    <f:entry title="Enable" field="enable"
+      description="Check to enable display User in Build History.">
+
+      <!--<f:checkbox name="enable" checked="${getEnable()}" />-->
+      <f:checkbox />
+    </f:entry>
+    
+  <!--
+    If you have multiple properties that need to be configured, add more <f:entry />s
+  -->
+</j:jelly>
